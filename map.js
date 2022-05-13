@@ -83,5 +83,5 @@ const updateMyVehicle = {
     color : 'yellow'
 }
 
-const myUpdateVehicle = myVehicle.concat(updateMyVehicle);
+const myUpdateVehicle = {...myVehicle, ...updateMyVehicle};
 console.log(myUpdateVehicle);
